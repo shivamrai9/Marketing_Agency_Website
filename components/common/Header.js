@@ -7,7 +7,7 @@ import { AiOutlineClose } from "react-icons/ai"
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   const router = useRouter()
   useEffect(() => {
